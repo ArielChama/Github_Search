@@ -1,0 +1,102 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerSecond {
+  max-width: 1200px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+}
+
+.content {
+  padding: 2rem 2rem;
+}
+
+.profileHead {
+  display: flex;
+  justify-content: center;
+}
+
+.profileImage {
+  padding: 1rem;
+}
+
+.profileImage img {
+  border-radius: 50%;
+  width: 169px;
+  height: 169px;
+}
+
+.profileInfo {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.profileInfo h1 {
+  color: #8752CC;
+}
+
+.profileInfo p {
+  color: #B2B2B2;
+  margin-bottom: 0.5rem;
+}
+
+.profileInfoBottom {
+  margin-top: 2rem;
+}
+
+.profileCard {
+  padding: 1rem;
+  background-color: #201F1F;
+  color: #B2B2B2;
+  margin: 2rem;
+  height: 6rem;
+  width: 15rem;
+  text-align: center;
+}
+
+.profileCard .countRepo {
+  font-size: 23px;
+}
+
+.contentBody {
+  display: flex;
+  padding: 4rem 0rem;
+  flex-wrap: wrap;
+}
+
+.cardRepo {
+  width: 350px;
+  background-color: #201F1F;
+  margin: 0.7rem;
+  padding: 1rem;
+  color: #B2B2B2;
+}
+
+.cardRepo h3 {
+  margin-bottom: 1rem;
+}
+
+.cardRepoBottom {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.cardRepoBottom div {
+  margin-right: 1rem;
+}
+
+
+@media (max-width: 890px) {
+  .profileHead {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
